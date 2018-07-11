@@ -1,0 +1,182 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  font-weight: bold;
+  font-family:verdana, sans-serif;
+}
+
+header, section, footer, nav, figure, figcaption, article{
+  display:block;
+}
+
+body{
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+#agrupar{
+  width:100%;
+  height: 700px;
+  margin: 15px auto;
+  text-align: left;
+}
+
+#cabecera{
+  background: #ff6600;
+  padding: 20px;
+  color: #ffffff;
+  text-align:center;
+  moz-border-radius: 0px 0px 10px 10px;
+  webkit-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+
+}
+#menu{
+  background: #ffffff;
+  border: 3px solid #000000;
+  padding: 5px;
+  font: bold 14px verdana, sans-serif;
+  color: #CCffff;
+  moz-border-radius: 10px;
+  webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#menu2{
+  text-align: center;
+  background: #CCCCCC;
+  color: #333333;
+  padding: 25px;
+  moz-border-radius: 10px 10px 0px 0px;
+  webkit-bprder-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+  clear:both;
+}
+
+#botonBuscar{
+  float :right;
+  width: 40%;
+  background: #FFFFFF;
+  margin: 15px;
+  border-radius: 5px;
+  color: black;
+}
+#menu li{
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  font: bold 14px verdana, sans-serif;
+}
+
+#menu a{
+  color: #CCCCCC;
+}
+
+table{
+  border-collapse: collapse;
+  width: 960px;
+  text-align: center;
+  height: 70px;
+}
+#menu img {
+  width: 50px;
+  height: 50px;
+}
+#cuerpo{
+  width :100%;
+  height : 400px;
+}
+#exhibicion{
+  float:left;
+  width: 80%;
+  height: 100%;
+  margin :1%;
+  padding: 1%;
+}
+#carrito{
+  background: #ffa07a;
+  float:left;
+  width: 10%;
+  height: 100%;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 5px ;
+  text-align: center;
+}
+
+.imagenesCamaras{
+  width: 20%;
+  height: 30%;
+  border-radius: 5px 5px solid #000000;
+  margin: 1%;
+
+}
+
+#botonCerrar, #botonComprar{
+  background-color: #CCCCCC;
+  width: 50px;
+  height: 20px;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 5px 5px solid #000000;
+  margin: 1%;
+}
+#tabla{
+  width:50%;
+  height: 70px;
+}
+
+#detalles{
+  background-color: #f7be81;
+  float:left;
+  text-align: center;
+  font-family: verdana;
+  width: 20%;
+  height: 150%;
+  border-width: 0;
+  padding: 5px;
+  border: 1px dotted #fa0;
+  margin: 20px;
+  border-radius: 5px;
+  webkit-border-radius: 5px;
+  box-shadow: 0px 0px 20px #aaa;
+}
+
+
+#exhibicion a:link, #menu a:visited {
+  color: #f00;
+  text-decoration: none;
+}
+
+#exhibicion a:hover{
+  background-color: #369;
+  color:#fff;
+}
+
+#tabla td{
+  border:dotted 2px #000000;
+  border-radius: 10px;
+  webkit-border-radius: 10px;
+  moz-border-radius: 10px;
+
+}
+.icon {
+  width:50px;
+  height: 50px;
+}
+#botonIngresar {
+  width:80px;
+  height: 40px;
+  display: inline-block;
+}
+#tablamenu td{
+  width: 25%;
+  text-align: center;
+  margin :10px auto;
+}
+#tablamenu{
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,226 @@
+<div>
+  <?php
+header('Content-Type: text/html; charset=utf-8');
+echo "<img src = '"+ $_REQUEST['src'] +"' width='100px' height='100px'>";
+//echo "<img src='img/canonDSLr.jpg' ">;//width='100px' height='100px'>";
+//<img src='"+$_REQUEST['src']+"'/>;
+echo $_REQUEST["src"];
+if($_REQUEST['cod']==1){
+  ?>
+  <h1> Canon DSLR </h1>
+  MARCA: Canon
+  PIXELAJE:100mp
+  SENSIBILIDAD ISO: 100
+  ZOOM OPTICO: X100
+  CALIDAD DE IMAGEN: Engine Bravia
+  TAMAÑO DEL SENSOR: 25mm
+  MODO HDR: NO
+  ESTABILIZADOR DE IMAGEN: Optico
+  VELOCIDAD DE OBTURACION: 1/1000
+  PANTALLA TACTIL: SI
+  TAMAÑO Y PESO DE LA CAMARA: 15x7x4mm 150gr
+  <h1>PRECIO:S/.5600</h1>
+  <?php
+}
+if($_REQUEST['cod']==2){
+  ?>
+  <h1> Canon EOS Rebel </h1>
+  MARCA: Canon
+  PIXELAJE: 50mp
+  SENSIBILIDAD ISO:
+  ZOOM OPTICO: X50
+  CALIDAD DE IMAGEN: Engine Bravia Tecnology
+  TAMAÑO DEL SENSOR: 15mm
+  MODO HDR: NO
+  ESTABILIZADOR DE IMAGEN: Digital
+  VELOCIDAD DE OBTURACION: 1/300
+  PANTALLA TACTIL: NO
+  TAMAÑO Y PESO DE LA CAMARA: 17x8x6mm 190gr
+  <h1>PRECIO:S/.2100 </h1>
+  <?php
+}
+if($_REQUEST['cod']==3){
+  ?>
+  <h1> Canon EOX </h1>
+  MARCA: Canon
+  PIXELAJE:50mp
+  SENSIBILIDAD ISO: 800
+  ZOOM OPTICO: X300
+  CALIDAD DE IMAGEN: Infinite display engine
+  TAMAÑO DEL SENSOR: 15mm
+  MODO HDR: SI
+  ESTABILIZADOR DE IMAGEN: Optico y digital
+  VELOCIDAD DE OBTURACION: 1/200
+  PANTALLA TACTIL: SI
+  TAMAÑO Y PESO DE LA CAMARA: 12x10x3mm
+  <h1>PRECIO:S/.7800 </h1>
+  <?php
+}
+if($_REQUEST['cod']==4){
+  ?>
+  <h1> Canon G9X </h1>
+  MARCA: Canon
+  PIXELAJE: 30mp
+  SENSIBILIDAD ISO: 100
+  ZOOM OPTICO: X30
+  CALIDAD DE IMAGEN: Motion display
+  TAMAÑO DEL SENSOR: 12mm
+  MODO HDR: NO
+  ESTABILIZADOR DE IMAGEN: NO
+  VELOCIDAD DE OBTURACION: 1/200
+  PANTALLA TACTIL: NO|
+  TAMAÑO Y PESO DE LA CAMARA: Sin referencias
+  <h1>PRECIO:S/.1599 </h1>
+  <?php
+}
+if($_REQUEST['cod']==5){
+  ?>
+  <h1> Canon T6 </h1>
+  MARCA: Canon
+  PIXELAJE: 20mp
+  SENSIBILIDAD ISO: 100
+  ZOOM OPTICO:X50
+  CALIDAD DE IMAGEN: Motion DIsplay
+  TAMAÑO DEL SENSOR: 13mm
+  MODO HDR: SI
+  ESTABILIZADOR DE IMAGEN: Optico
+  VELOCIDAD DE OBTURACION: 1/100
+  PANTALLA TACTIL: SI
+  TAMAÑO Y PESO DE LA CAMARA: 160X100X7mm 200gr
+  <h1>PRECIO:S/. 3499 </h1>
+  <?php
+}
+if($_REQUEST['cod']==6){
+  ?>
+  <h1> FUJIFILM x20</h1>
+  MARCA: Fujifilm
+  PIXELAJE:50mp
+  SENSIBILIDAD ISO: 800
+  ZOOM OPTICO: X300
+  CALIDAD DE IMAGEN: Infinite display engine
+  TAMAÑO DEL SENSOR: 15mm
+  MODO HDR: SI
+  ESTABILIZADOR DE IMAGEN: Optico y digital
+  VELOCIDAD DE OBTURACION: 1/200
+  PANTALLA TACTIL: SI
+  TAMAÑO Y PESO DE LA CAMARA: 12x10x3mm
+  <h1>PRECIO:S/.1800 </h1>
+  <?php
+}
+
+if($_REQUEST['cod']==7){
+  ?>
+  <h1> NIKON 500 </h1>
+  MARCA: Nikon
+  PIXELAJE: 50mp
+  SENSIBILIDAD ISO:
+  ZOOM OPTICO: X50
+  CALIDAD DE IMAGEN: Engine Bravia Tecnology
+  TAMAÑO DEL SENSOR: 15mm
+  MODO HDR: NO
+  ESTABILIZADOR DE IMAGEN: Digital
+  VELOCIDAD DE OBTURACION: 1/300
+  PANTALLA TACTIL: NO
+  TAMAÑO Y PESO DE LA CAMARA: 17x8x6mm 190gr
+  <h1>PRECIO:S/.7100 </h1>
+  <?php
+}
+
+if($_REQUEST['cod']==8){
+  ?>
+  <h1> NIKON A100 </h1>
+  MARCA: Canon
+  PIXELAJE: 50mp
+  SENSIBILIDAD ISO:
+  ZOOM OPTICO: X50
+  CALIDAD DE IMAGEN: Engine Bravia Tecnology
+  TAMAÑO DEL SENSOR: 15mm
+  MODO HDR: NO
+  ESTABILIZADOR DE IMAGEN: Digital
+  VELOCIDAD DE OBTURACION: 1/300
+  PANTALLA TACTIL: NO
+  TAMAÑO Y PESO DE LA CAMARA: 17x8x6mm 190gr
+  <h1>PRECIO:S/.4900 </h1>
+  <?php
+}
+
+if($_REQUEST['cod']==9){
+  ?>
+  <h1> PANASONIC LUMIX</h1>
+  MARCA: Panasonic
+  PIXELAJE:50mp
+  SENSIBILIDAD ISO: 800
+  ZOOM OPTICO: X300
+  CALIDAD DE IMAGEN: Infinite display engine
+  TAMAÑO DEL SENSOR: 15mm
+  MODO HDR: SI
+  ESTABILIZADOR DE IMAGEN: Optico y digital
+  VELOCIDAD DE OBTURACION: 1/200
+  PANTALLA TACTIL: SI
+  TAMAÑO Y PESO DE LA CAMARA: 12x10x3mm
+  <h1>PRECIO:S/.6540 </h1>
+  <?php
+}
+
+if($_REQUEST['cod']==10){
+  ?>
+  <h1> SONY HDR </h1>
+  MARCA: Sony
+  PIXELAJE: 50mp
+  SENSIBILIDAD ISO:
+  ZOOM OPTICO: X50
+  CALIDAD DE IMAGEN: Engine Bravia Tecnology
+  TAMAÑO DEL SENSOR: 15mm
+  MODO HDR: NO
+  ESTABILIZADOR DE IMAGEN: Digital
+  VELOCIDAD DE OBTURACION: 1/300
+  PANTALLA TACTIL: NO
+  TAMAÑO Y PESO DE LA CAMARA: 17x8x6mm 190gr
+  <h1>PRECIO:S/.1450 </h1>
+  <?php
+}
+
+if($_REQUEST['cod']==11){
+  ?>
+  <h1> PRAKTICA T1000 </h1>
+  MARCA: Praktica
+  PIXELAJE: 50mp
+  SENSIBILIDAD ISO:
+  ZOOM OPTICO: X50
+  CALIDAD DE IMAGEN: Engine Bravia Tecnology
+  TAMAÑO DEL SENSOR: 15mm
+  MODO HDR: NO
+  ESTABILIZADOR DE IMAGEN: Digital
+  VELOCIDAD DE OBTURACION: 1/300
+  PANTALLA TACTIL: NO
+  TAMAÑO Y PESO DE LA CAMARA: 17x8x6mm 190gr
+  <h1>PRECIO:S/.1000 </h1>
+  <?php
+}
+if($_REQUEST['cod']==12){
+  ?>
+  <h1> SONY ALPHA </h1>
+  MARCA: Sony
+  PIXELAJE: 100mp
+  SENSIBILIDAD ISO:
+  ZOOM OPTICO:X50
+  CALIDAD DE IMAGEN: Motion DIsplay
+  TAMAÑO DEL SENSOR: 13mm
+  MODO HDR: SI
+  ESTABILIZADOR DE IMAGEN: Optico
+  VELOCIDAD DE OBTURACION: 1/100
+  PANTALLA TACTIL: SI
+  TAMAÑO Y PESO DE LA CAMARA: 160X100X7mm 200gr
+  <h1>PRECIO:S/. 3499 </h1>
+
+  </div>
+  <?php
+}
+?>
+<div >
+  <table>
+    <td>
+      <img id ="flecha" class="icon" src="icons/flecha.png"><img class="icon" id="billetera" src="icons/billetera.png">
+    </td>
+  </table>
+</div>
